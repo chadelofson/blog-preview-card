@@ -25,13 +25,17 @@ body {
     height: auto;
     max-height: 522px;
     min-height: 500px;
-    box-shadow: 16px 16px 0 #000;
+    box-shadow: 8px 8px 0 #000;
     background: #fff;
     border-radius: 20px;
     padding: 24px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.blog-post:hover, .blog-post:active {
+    box-shadow: 16px 16px 0 #000;
 }
 
 .blog-image {
@@ -82,3 +86,4 @@ body {
     width: 32px;
     margin-right: 10px;
 }
+
