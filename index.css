@@ -62,6 +62,12 @@ body {
 
 .blog-title {
     font-size: 1.5rem;
+    color: #000;
+
+}
+
+.blog-title:hover {
+    font-size: 1.5rem;
     color: #F4D04E;
     cursor: pointer;
 }
